@@ -1,0 +1,74 @@
+#load{
+	text-align: center;
+	margin-top: 20%;
+	font-size: 50px;
+}
+body{
+	margin:0;
+	background-color: #286090;;
+	color:white;
+}
+.content{
+	position:absolute;
+    top: 30px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;
+    margin-top: 1%;
+}
+header{
+	background-color:#85D3E0;
+	height:30px;	
+	padding-top:1%;
+	padding-left: 1%;
+
+}
+nav a{
+	background-color: #88D3DF;
+}
+a {
+	text-decoration: none;
+	color:white;
+	margin-right: 2%;
+	border-style:solid;
+	border-radius: 5px;
+	border-color:#88D3DF;
+	border-width: 7px;
+}
+nav a:hover{
+	background-color: #286090;
+	border-color:#286090;
+	transition: ease 1s;
+}
+#home {
+	text-align: center;
+}
+#leaderboard {
+	text-align: center;
+}
+#leaderboard h2{
+	margin:0;
+}
+#profile {
+	margin-left: 1%;
+}
+#settings{
+	margin-left: 1%;
+}
+#notfound{
+	text-align: center;
+}
+form input {
+	color:black;
+	border-radius: 5px;
+}
+button {
+	border-radius: 5px;
+	border-style:none;
+	background-color:black;
+}
+button:active{
+	background-color:#C99C34;
+	transition: ease .1s;
+}

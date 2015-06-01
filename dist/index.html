@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Skeleton</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="#home" id="a-link">Home</a>
+			<a href="#settings" id="b-link">Settings</a>
+			<a href="#leaderboard" id="c-link">Leaderboards</a>
+			<a href="#profile/Joshua" id="d-link">Profile</a>
+			<a href="#zmzsjd" id="d-link">BREAK (404)</a>
+		</nav>
+	</header>
+	<section class="content">
+	<div class="page" id="load"></div>
+	<div class="page" id="home">
+		<h1>Home</h1>
+	</div>
+	<div class="page" id="settings">
+		<h1>Settings</h1>
+		<button class="monkey-button">Click me ;)</button>
+	</div>
+	<div class="page" id="leaderboard">
+		<h1>Leaderboards</h1>
+	</div>
+	<div class="page" id="profile">
+		<h1>Profile</h1>
+		<h2 id="name"></h2>
+		<h3 id="kills"><p id="kill-count"></p></h3>
+		<h3 id="deaths"><p id="death-count"></p></h3>
+		<h3 id="ratio"></h3>
+		<form>
+			<input type="text" class="profile" placeholder="Profile Name">
+			<button class="button-time">Search Profiles</button>
+		</form>
+	</div>
+		<div class="page" id="notfound">
+			<h1>404, 404, 404!!!!!!</h1>
+			<h1>Page Not Found. LOOK UNDER YOUR COMPUTER!!!</h1>
+			<h2>Four Monkeys are probably eating the internals... seriously. Look!</h2>
+			<img src="http://www.popsci.com/sites/popsci.com/files/styles/large_4x3/public/custom-touts/2014/11/popular-science-404-miss-baker-monkey-by-maki-naro.jpg?itok=9qcZ0KMz" style="width: 600px">
+			<img src="http://www.popsci.com/sites/popsci.com/files/styles/large_4x3/public/custom-touts/2014/11/popular-science-404-miss-baker-monkey-by-maki-naro.jpg?itok=9qcZ0KMz" style="width: 600px">
+			<img src="http://www.popsci.com/sites/popsci.com/files/styles/large_4x3/public/custom-touts/2014/11/popular-science-404-miss-baker-monkey-by-maki-naro.jpg?itok=9qcZ0KMz" style="width: 600px">
+			<img src="http://www.popsci.com/sites/popsci.com/files/styles/large_4x3/public/custom-touts/2014/11/popular-science-404-miss-baker-monkey-by-maki-naro.jpg?itok=9qcZ0KMz" style="width: 600px">
+		</div>
+	</section>
+	<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+	<script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
